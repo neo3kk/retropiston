@@ -1,0 +1,37 @@
+body{
+	background-color: #efefef;
+	/*COLOR DE LETRA*/ 
+	color: blue;
+	
+
+	
+}
+
+a{
+	text-decoration: none;
+	color: green;
+}
+
+a:hover{
+	background-color: orange;
+	padding: 10px;
+
+}
+
+nav{
+	background: #528fd5;
+	margin-top: 20px;
+	position: relative;
+	display:""
+}
+
+nav ul{
+	list-style: none;
+	overflow: hidden;
+	
+	
+}
+
+nav> ul> li{
+	float: left;
+}
