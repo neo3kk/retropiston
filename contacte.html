@@ -7,59 +7,70 @@
         <meta name="description" content="Aqui trobaràs tot el relacionat amb la teva clàsica">
         <meta name="keywords" content="classic, vespa, lambretta, pistòn, retro">
         <meta name="robots" content="index, follow">
+        <!--Pot ser intern o extern-->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <!---->
     </head>
     <body>
-        <h1>Contacta amb nosaltres</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Pàgina principal</a></li>
 
-                <li><a href="marques.html">Marques</a>
+        <div id="web">
+            <div id="banner">
+                <h1>Contacta amb nosaltres</h1>
+            </div>
+            <div id="menu">
+                <nav>
                     <ul>
-                        <li><a href="vespa.html">Vespa</a></li>
-                        <li>Lambretta</li>
+                        <li><a href="index.html">Pàgina principal</a></li>
+
+                        <li><a href="marques.html">Marques</a>
+                            <ul>
+                                <li><a href="vespa.html">Vespa</a></li>
+                                <li>Lambretta</li>
+                            </ul>
+                        </li>	
+                        <li><a href="contacte.html">Contacte</a></li>
                     </ul>
-                </li>	
-                <li><a href="contacte.html">Contacte</a></li>
-            </ul>
 
-        </nav>
+                </nav>
+            </div>
+            <div id="cuerpo">
+                <form method="post" action="url">
 
-        <form method="post" action="url">
+                    <label>Nom: </label> <input type="text" name="nom" placeholder="escriu el teu nom">
 
-            <label>Nom: </label> <input type="text" name="nom" placeholder="escriu el teu nom">
+                    <label>Llinatges: </label> <input type="text" name="llinatge" placeholder="escriu el teu llinatge">
 
-            <label>Llinatges: </label> <input type="text" name="llinatge" placeholder="escriu el teu llinatge">
+                    <label>Edat: </label> 
 
-            <label>Edat: </label> 
-
-            <input type="date" name="edad">
+                    <input type="date" name="edad">
 
 
-            <label>Sexe: </label>
+                    <label>Sexe: </label>
 
-            <input type="radio" name="sexe">Home
-            <input type="radio" name="sexe">Dona
-
-
-            <label>Quin model de Vespa tens?: </label>
-
-            <select name="model">
-                <option>Vespa 125s</option>
-                <option>Vespa cosa</option>
-                <option>PK primavera 75</option>
-            </select>
-
-            <label>Estic d'acord amb les polítiques de privatitat d'aquest lloc web</label> <input type="checkbox" name="ok">
-
-            <label>Observacions: </label>
-
-            <textarea name="comentari" placeholder="escriu el comentari"></textarea>
-
-            <input type="submit" name="enviar" value="send">
-
-        </form>
+                    <input type="radio" name="sexe">Home
+                    <input type="radio" name="sexe">Dona
 
 
+                    <label>Quin model de Vespa tens?: </label>
+
+                    <select name="model">
+                        <option>Vespa 125s</option>
+                        <option>Vespa cosa</option>
+                        <option>PK primavera 75</option>
+                    </select>
+
+                    <label>Estic d'acord amb les polítiques de privatitat d'aquest lloc web</label> <input type="checkbox" name="ok">
+
+                    <label>Observacions: </label>
+
+                    <textarea name="comentari" placeholder="escriu el comentari"></textarea>
+
+                    <input type="submit" name="enviar" value="send">
+
+                </form>
+
+            </div>
+
+        </div>
     </body>
 </html>

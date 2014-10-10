@@ -1,37 +1,48 @@
+/*selector de css
+
+/*pot esser un tag
+
+        p{}
+
+class defineix els estils de una clase determinada que pot estar a diferents tags
+
+
+<p class="vermell"> en html
+
+.vermell {} 
+
+*/
+/* width: ample, height: altura, margin: marges externs, padding: marges interns*/
+
 body{
-	background-color: #efefef;
-	/*COLOR DE LETRA*/ 
-	color: blue;
-	
-
-	
+    position: relative;
+}
+h1{
+    font-family: cansole;
+    font-size: 55px;
+    color: green;
+    text-align: center;
 }
 
-a{
-	text-decoration: none;
-	color: green;
-}
+a {
 
+    text-decoration: none;
+    color: beige;
+
+}
 a:hover{
-	background-color: orange;
-	padding: 10px;
+    margin-left: 10px;
+    color: blue;
+    text-decoration: underline;
 
 }
 
-nav{
-	background: #528fd5;
-	margin-top: 20px;
-	position: relative;
-	display:""
-}
 
-nav ul{
-	list-style: none;
-	overflow: hidden;
-	
-	
-}
+#menu{
+    background-color: red;    
+    color: blue;
+    text-decoration: none;
 
-nav> ul> li{
-	float: left;
+
+
 }
