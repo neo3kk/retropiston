@@ -20,7 +20,10 @@ and open the template in the editor.
     
 }
 #banner{
-      
+      background-image: url('../imatges/banner.png');
+     margin: auto;
+      width: 872px;
+      height: 115px;
     
 }
 

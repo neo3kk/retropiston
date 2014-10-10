@@ -27,7 +27,7 @@ h1{
 a {
 
     text-decoration: none;
-    color: beige;
+    color: black;
 
 }
 a:hover{
@@ -39,10 +39,19 @@ a:hover{
 
 
 #menu{
-    background-color: red;    
+    background-color: beige;    
     color: blue;
     text-decoration: none;
-
-
-
+    width: 200px;
+    height: 150px;
+    padding: 10px;
+    border-radius: 20px;
+    float: none;
+ 
+}
+nav li{
+    text-align: center;
+    list-style: none;
+    
+    
 }
