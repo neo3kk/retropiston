@@ -16,13 +16,21 @@ class defineix els estils de una clase determinada que pot estar a diferents tag
 
 body{
     position: relative;
+    background-image: url('../imatges/fondo.jpg');
+    background-position: left;
+    background-size: cover;
+    background-repeat: NO-REPEAT;
+    font-family: open sans;
 }
-h1{
-    font-family: cansole;
-    font-size: 55px;
-    color: green;
-    text-align: center;
+
+#banner {
+    background-image: url('../imatges/banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+    
 }
+
 
 a {
 
@@ -30,28 +38,65 @@ a {
     color: black;
 
 }
-a:hover{
-    margin-left: 10px;
-    color: blue;
-    text-decoration: underline;
 
-}
 
 
 #menu{
+    width: 15%;
     background-color: beige;    
     color: blue;
     text-decoration: none;
-    width: 200px;
-    height: 150px;
-    padding: 10px;
-    border-radius: 20px;
-    float: none;
+    height: 200px;
+    /* padding: 10px; */
+    border-radius: 10px;
+    
  
 }
+
+#menu a{
+    text-decoration: none;
+    color: green;
+
+}
+
+#menu a:hover{
+    text-decoration: blink;
+    color: red;
+    
+    
+    
+}
 nav li{
-    text-align: center;
+    text-align: left;
     list-style: none;
+        
+    
+}
+
+
+
+.vespaico{
+    
+   width: 80px;
+   height: 60px;
+   border: 2px;
+    
+}
+
+#vespa125s{
+   position: relative;
+   width: 100%;
+    
+}
+
+.vespa125s{
+    margin: auto;
+    
+}
+
+#formulari{
+    position: relative;
+    width: 200px;
     
     
 }
