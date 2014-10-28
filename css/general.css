@@ -10,10 +10,14 @@ and open the template in the editor.
 *{margin: 0; padding: 0;}
 
 #web{
+    position: absolute;
     width: 90%;/*anchura. para adaptar a pantalla en porcentaje*/
     height: auto;/*altura*/
     /*padding: 10px;/*margen interior*/
-    margin: auto; /* margen exterior*/
+    /*margin: auto; /* margen exterior*/
+    top: 0;
+    left: 5%;
+    right: 5%;
 
 }
 
@@ -28,30 +32,36 @@ body{
 }
 
 #banner {
-    position: relative;
-    background-size: 100% 100%;
-    background-image: url('../imatges/banner3.png');
+    /*position: relative;
+    /*background-size: 100% 100%;*/
+    /* background-image: url('../imatges/banner3.png'); */
     /*margin-bottom: 20px;*/
-    background-repeat: no-repeat;
+    /*background-repeat: no-repeat;*/
     /*background-position: center;*/
-    height: 200px;
-    margin-top: 5px;
+    /*height: auto;
+   /* margin-top: 5px;
     margin-bottom: 20px;
-    border-radius: 30px;
-    border: 10px solid black;
-
-
-
+    /*border-radius: 30px;*/
+    /*border: 10px solid black;*/
+}
+.banner1{
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    border: 5px solid black;
+    margin-top: 5px;
+    
 }
 
 #menu{
-    width: 15%; 
+    width: 15%;
+    
     /*background-image: url("../imatges/fondo3.jpg");*/
     background-color: rgba(255,222,129,0.8);
     /*background-size: cover;*/
     color: black;
     text-decoration: none;
-    height: 200px;
+    height: auto;
     /* padding: 10px; */
     border-radius: 20px;
     border: 5px solid black;
@@ -75,6 +85,11 @@ body{
 
 
 }
+
+.menu{
+    
+    
+}
 nav li{
     text-align: left;
     list-style: none;
@@ -87,7 +102,9 @@ nav li{
     background-color: rgba(255,222,129,0.8);
     top: 0;
     left: 18%;
-    width: 81%;
+    width: 80%;
+    /* max-width: 80%; */
+    height: auto;
     font-size: 12px;
     color: #000;
     text-align: justify;
@@ -97,10 +114,10 @@ nav li{
     font-weight: 100;
     /*font-style: italic;*/
     border: 5px solid black;
-    min-height: 200px;
     border-radius: 20px;
     /* padding-left: 2%; */
     /* padding-right: 2%; */
+    
 
 
 
@@ -131,12 +148,13 @@ a {
 #vespa125s{
     position: relative;
     width: 100%;
+    height: auto;
 
 }
 
 .vespa125s{
-    width: 300px;
-    height: 250px;
+    width: 30%;
+    height: auto;
     position: relative;
     border-radius: 5px;
     top: 5px;
@@ -145,11 +163,9 @@ a {
 }
 
 .texto1{
-    position: absolute;
-    top: 5px;
+    position: relative;
+    top: 0px;
 
-    left: 32%;
-    right: 1%;
 }
 .video{
 
