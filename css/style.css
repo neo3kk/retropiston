@@ -15,9 +15,33 @@ class defineix els estils de una clase determinada que pot estar a diferents tag
 /* width: ample, height: altura, margin: marges externs, padding: marges interns*/
 
 
-/*#formulari{
-    position: relative;
-    width: 200px;
 
 
-}*/
+
+@media (min-resolution: 1.5dppx),
+(min-resolution: 144dpi),
+(-webkit-min-device-pixel-ratio: 1.5), 
+(-o-min-device-pixel-ratio: 3/2)
+{
+    body{
+        position: relative;
+        background-image: url('../imatges/fondom.jpg');
+               
+        
+        
+    } 
+    #menu{
+        display:none;
+        
+    }
+    div#cuerpo{
+        padding: 0;
+        margin: 0;
+        left: 0;
+        width: 100%;
+      
+        
+    }
+
+
+}
