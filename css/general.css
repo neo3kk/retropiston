@@ -7,7 +7,13 @@ and open the template in the editor.
     Created on : 10-oct-2014, 17:12:41
     Author     : neo3k_000
 */
-*{margin: 0; padding: 0;}
+@font-face {
+    font-family: DEFTONE;
+
+    src: url('../fonts/DEFTONE.ttf');
+}
+
+*{margin: 0; padding: 0; font-family: DEFTONE; font-size: 30px;}
 
 #web{
     position: absolute;
@@ -23,19 +29,17 @@ and open the template in the editor.
 
 body{
     position: relative;
-    background-image: url('../imatges/fondo.jpg');
-
+    background-image: url('../imatges/fondo2.jpg');
     background-position: top;
     background-size: cover;
     /*background-size: contain;*/
     background-attachment: fixed;
     background-repeat: NO-REPEAT;
-    font-family: open sans;
 }
 
 
 #banner {
-   
+
     /*position: relative;
     /*background-size: 100% 100%;*/
     /* background-image: url('../imatges/banner3.png'); */
@@ -43,16 +47,16 @@ body{
     /*background-repeat: no-repeat;*/
     /*background-position: center;*/
     /*height: auto;*/
-   margin-top: 5px;
-   /* margin-bottom: 20px;
-    /*border-radius: 30px;*/
+    margin-top: 5px;
+    /* margin-bottom: 20px;
+     /*border-radius: 30px;*/
     /*border: solid 10% black;*/
 }
 .banner1{
     width: 100%;
     height: auto;
     border-radius: 20px;
-    
+
     /*border: 5px solid black;*/
     /* margin-top: 5px;*/
 
@@ -63,34 +67,30 @@ body{
     top:0;
     width: 12%;
     height: auto;
-    background-color: rgba(255,222,129,0.8);
+    background-color: rgba(255,222,129,0.6);
     color: black;
     text-decoration: none;
     border-radius: 20px;
-    font-size: 12px;
     padding: 3%;
     /*border: 5px solid black;*/
 
 
 
 }
-.mnu{
-    width: 100%;
-    height: auto;
 
-}
+
 #menu a{
     text-decoration: none;
     color: black;
-    text-transform: uppercase;
-    font-size: 12px;
+    /*text-transform: uppercase;*/
+    /*font-size: 12px;*/
 
 
 }
 
 #menu a:hover{
     text-decoration: blink;
-    color: black;
+    color: red;
 
 
 
@@ -99,42 +99,31 @@ body{
 nav li{
     text-align: left;
     list-style: none;
-
-
 }
 
 #cuerpo{
     position: relative;
-    background-color: rgba(255,222,129,0.8);
+    background-color: rgba(255,222,129,0.6);
     top: 0;
     left: 20%;
     width: 74%;
-    /* max-width: 80%; */
     height: auto;
-    font-size: 12px;
     color: #000;
     text-align: justify;
     text-decoration: none;
-    text-transform: uppercase;
-    text-indent: 0px;
-    font-weight: 100;
-    /*font-style: italic;*/
-    /*border: 5px solid black;*/
     border-radius: 20px;
     padding-left: 3%;
     padding-right: 3%;
-
-
-
-
+    /* text-transform: uppercase;*/
+    /* text-indent: 0px;*/
+    /* font-weight: 100;*/
+    /*font-style: italic;*/
+    /*border: 5px solid black;*/
 }
 
 #contenidor{
     position: relative;
 }
-
-
-
 
 a {
 
@@ -164,7 +153,7 @@ a {
     position: relative;
     border-radius: 5px;
     top: 5px;
-    left: 10px;
+    left: 30%;
     margin-bottom: 5px;
 }
 
@@ -180,4 +169,14 @@ a {
     padding: 10px;/*margen interior*/
     margin: auto; /* margen exterior*/
 
+}
+
+#tabla{
+    position: relative;
+    top: 5px;
+    left: 10%;
+    
+    
+    
+    
 }

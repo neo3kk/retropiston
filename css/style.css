@@ -26,21 +26,62 @@ class defineix els estils de una clase determinada que pot estar a diferents tag
     body{
         position: relative;
         background-image: url('../imatges/fondom.jpg');
-               
-        
-        
+
+
+
     } 
     #menu{
         display:none;
-        
+
     }
     div#cuerpo{
-        padding: 0;
-        margin: 0;
+        position: relative;
+        background-color: rgba(255,222,129,0.6);
+        top: 0;
         left: 0;
-        width: 100%;
-      
-        
+        width: 94%;
+        height: auto;
+        color: #000;
+        text-align: justify;
+        text-decoration: none;
+        border-radius: 20px;
+        padding-left: 3%;
+        padding-right: 3%;
+
+
+    }
+
+
+}
+
+@media (max-width: 840px)
+{
+    body{
+        position: relative;
+        background-image: url('../imatges/fondom.jpg');
+
+
+
+    } 
+    #menu{
+        display:none;
+
+    }
+    div#cuerpo{
+
+        position: relative;
+        background-color: rgba(255,222,129,0.6);
+        top: 0;
+        left: 0;
+        width: 94%;
+        height: auto;
+        color: #000;
+        text-align: justify;
+        text-decoration: none;
+        border-radius: 20px;
+        padding-left: 3%;
+        padding-right: 3%;
+
     }
 
 
