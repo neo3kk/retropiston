@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
     <head>
         <title>RETROPISTÓN</title>
@@ -7,75 +6,91 @@
         <meta name="description" content="Aqui trobaràs tot el relacionat amb la teva clàsica">
         <meta name="keywords" content="classic, vespa, lambretta, pistòn, retro">
         <meta name="robots" content="index, follow">
+        <!--<meta name="viewport" content="width=device-width, initial-scale=1.0" />-->
         <!--Pot ser intern o extern-->
-        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/fonts.css">
         <link rel="stylesheet" type="text/css" href="css/general.css">
-        <!---->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+
+        <!--menu-->
+
+        <!--<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale = 1.0">-->
+
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/estilo.css" />
+        <script type="text/javascript" src="http://www.queness.com/js/bsa.js?t=123322"></script>
+
+        <!-- Responsive Nav -->
+        <script src="js/jquery.1.7.1.min.js"></script>
+        <script src="js/js.js"></script>
     </head>
+    <!---->
     <body>
 
-        <div id="web">
-            <a href="index.html" >
-                <div id="banner">
-<img src="imatges/banner3.png" alt="RETROPISTON" class="banner1">
-                </div>
-            </a>
             <div id="contenidor">
-            <div id="menu">
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Pàgina principal</a></li>
-
-                        <li><a href="marques.html">Marques</a>
-                            <ul>
-                                <li><a href="vespa.html">Vespa</a></li>
-                                <li>Lambretta</li>
-                            </ul>
-                        </li>	
-                        <li><a href="contacte.html">Contacte</a></li>
-                    </ul>
-
-                </nav>
-            </div>
-            
-            
-            <div id="cuerpo">
-                <form method="post" action="url">
-
-                    <label>Nom: </label> <input type="text" name="nom" placeholder="escriu el teu nom">
-
-                    <label>Llinatges: </label> <input type="text" name="llinatge" placeholder="escriu el teu llinatge">
-
-                    <label>Edat: </label> 
-
-                    <input type="date" name="edad">
 
 
-                    <label>Sexe: </label>
 
-                    <input type="radio" name="sexe">Home
-                    <input type="radio" name="sexe">Dona
+                <div id="menu">
+                    <nav class="clearfix">
+                        <ul class="clearfix">
+
+                            <li><a href="index.html"><img src="imatges/menu/home2.png" alt="Home" class="icon home"></a></li>
+                            <li><a href="marques.html"><img src="imatges/menu/clasicas.png" alt="clasicas" class="icon"></a></li>
+                            <li><a href="vespa.html"><img src="imatges/menu/foro.png" alt="foro" class="icon"></a></li>
+                            <!--<li><a href="vespa125s.html">Vespa125s</a></li>-->
+                            <li><a href="contacte.html"><img src="imatges/menu/contacto.png" alt="contacto" class="icon"></a></li>
+                            <!--<li><a href="#">About</a></li>-->
+                        </ul>
+                        <a href="#" id="pull"><img src="imatges/banner3.png" alt="RETROPISTON" class="banner2"></a>
+                    </nav>
+                </div>
+
+                
+                <a href="index.html">
+                    <div id="banner">
+                        <img src="imatges/banner3.png" alt="RETROPISTON" class="banner1">
+
+                    </div>
+                </a>
 
 
-                    <label>Quin model de Vespa tens?: </label>
 
-                    <select name="model">
-                        <option>Vespa 125s</option>
-                        <option>Vespa cosa</option>
-                        <option>PK primavera 75</option>
-                    </select>
 
-                    <label>Estic d'acord amb les polítiques de privatitat d'aquest lloc web</label> <input type="checkbox" name="ok">
+                <div id="cuerpo">
+                    <form method="post" action="url">
 
-                    <label>Observacions: </label>
+                        <div class="form"> Nom <input type="text" name="nom" placeholder="escriu el teu nom"></div>
 
-                    <textarea name="comentari" placeholder="escriu el comentari"></textarea>
+                        <div class="form">Llinatges:<input type="text" name="llinatge" placeholder="escriu el teu llinatge"></div>
 
-                    <input type="submit" name="enviar" value="send">
+                        <div class="form">Edat: <input type="date" name="edad"></div>
 
-                </form>
 
-            </div>
+                        <div class="form">Sexe: </div>
+
+                        <div class="form"><input type="radio" name="sexe">Home </div>
+                        <div class="form"><input type="radio" name="sexe">Dona </div>
+
+
+                        <div class="form">Quin model de Vespa tens?:</div>
+
+                        <div class="form"><select name="model">
+                                <option>Vespa 125s</option>
+                                <option>Vespa cosa</option>
+                                <option>PK primavera 75</option>
+                            </select></div>
+
+                        <div class="form">Estic d'acord amb les polítiques de privatitat d'aquest lloc web <input type="checkbox" name="ok"> </div>
+
+                        <div class="form">Observacions:<textarea name="comentari" placeholder="escriu el comentari"></textarea></div>
+
+                        <div class="send"><input type="submit" name="enviar" value="send"></div>
+
+                    </form>
+
+                </div>
             </div>
         </div>
     </body>

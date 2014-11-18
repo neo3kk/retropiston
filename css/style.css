@@ -1,88 +1,51 @@
-/*selector de css
-
-/*pot esser un tag
-
-        p{}
-
-class defineix els estils de una clase determinada que pot estar a diferents tags
-
-
-<p class="vermell"> en html
-
-.vermell {} 
-
-*/
-/* width: ample, height: altura, margin: marges externs, padding: marges interns*/
-
-
-
-
-
-@media (min-resolution: 1.5dppx),
-(min-resolution: 144dpi),
-(-webkit-min-device-pixel-ratio: 1.5), 
-(-o-min-device-pixel-ratio: 3/2)
+@media (max-width: 600px)
 {
+
+
     body{
         position: relative;
         background-image: url('../imatges/fondom.jpg');
 
-
-
     } 
-    #menu{
-        display:none;
+        
+    #banner .banner1 {
+        display: none;
 
     }
-    div#cuerpo{
+    .banner2{
         position: relative;
-        background-color: rgba(255,222,129,0.6);
-        top: 0;
-        left: 0;
-        width: 94%;
-        height: auto;
-        color: #000;
-        text-align: justify;
-        text-decoration: none;
+        width: auto;
+        height: 40px;
         border-radius: 20px;
-        padding-left: 3%;
-        padding-right: 3%;
-
 
     }
 
 
-}
 
-@media (max-width: 840px)
-{
-    body{
-        position: relative;
-        background-image: url('../imatges/fondom.jpg');
-
-
-
-    } 
-    #menu{
-        display:none;
-
-    }
     div#cuerpo{
 
         position: relative;
         background-color: rgba(255,222,129,0.6);
-        top: 0;
+        top: 10px;
         left: 0;
         width: 94%;
-        height: auto;
+       // height: auto;
         color: #000;
-        text-align: justify;
         text-decoration: none;
         border-radius: 20px;
-        padding-left: 3%;
-        padding-right: 3%;
+        //padding-left: 3%;
+        //padding-right: 3%;
 
     }
 
-
+.vespa125s{
+    width: 200px;
+    height: auto;
+    
+    //height: auto;
+    
+    
 }
+}
+
+

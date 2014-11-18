@@ -1,0 +1,32 @@
+#adpacks, .bsap{
+	position:absolute;
+	top:20px;
+	right:20px;
+	width:141px;
+	z-index:99999;
+}
+
+	#adpacks .adpacks-wrap, .bsap .bsa_it_ad {
+		padding:4px;
+		border:1px solid #eee;
+		background-color:transparent;
+		background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABhJREFUeNpi/P///wYGNMDEgAVQKAgQYAB7wAO39I2dfgAAAABJRU5ErkJggg==);
+		display:block;
+		font-size:11px;
+		margin-bottom:3px;
+	}
+	
+	#adpacks a, #adpacks .adpacks-poweredby {
+		display:block;
+		color:#333;
+		text-decoration:none;
+		font-size:11px;
+	}
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+
+	#adpacks, .bsap {
+		display:none;
+	}  
+
+}
