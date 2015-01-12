@@ -6,77 +6,90 @@
         <meta name="description" content="Aqui trobaràs tot el relacionat amb la teva clàsica">
         <meta name="keywords" content="classic, vespa, lambretta, pistòn, retro">
         <meta name="robots" content="index, follow">
-        <!--<meta name="viewport" content="width=device-width, initial-scale=1.0" />-->
-        <!--Pot ser intern o extern-->
+
+        <!---->
+
         <link rel="stylesheet" type="text/css" href="css/fonts.css">
         <link rel="stylesheet" type="text/css" href="css/general.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
 
-        <!--menu-->
 
-        <!--<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale = 1.0">-->
+        <!--menu-->
 
         <link rel="stylesheet" href="css/normalize.css" />
         <link rel="stylesheet" href="css/estilo.css" />
-        <script type="text/javascript" src="http://www.queness.com/js/bsa.js?t=123322"></script>
+
 
         <!-- Responsive Nav -->
-        <script src="js/jquery.1.7.1.min.js"></script>
+
+        <script src="js/jquery.js"></script>
         <script src="js/js.js"></script>
+
+        <!-- Css jquery ui-->
+
+        <link rel="stylesheet" type="text/css" href="js/jquery/jquery-ui.css">
+        <link rel="stylesheet" type="text/css" href="js/jquery/jquery-ui.theme.css">
+
+        <!-- Jquery UI -->
+        
+        <script src="js/jquery/jquery-ui.js"></script>
+        
+        <!--scripts propis -->
+
+        <script src="js/vespa.js"></script>
+
     </head>
+
     <!---->
     <body>
 
-            <div id="contenidor">
+        <div id="contenidor">
 
 
 
-                <div id="menu">
-                    <nav class="clearfix">
-                        <ul class="clearfix">
+            <div id="menu">
+                <nav class="clearfix">
+                    <ul class="clearfix">
 
-                            <li><a href="index.html"><img src="imatges/menu/home2.png" alt="Home" class="icon home"></a></li>
-                            <li><a href="marques.html"><img src="imatges/menu/clasicas.png" alt="clasicas" class="icon"></a></li>
-                            <li><a href="vespa.html"><img src="imatges/menu/foro.png" alt="foro" class="icon"></a></li>
-                            <!--<li><a href="vespa125s.html">Vespa125s</a></li>-->
-                            <li><a href="contacte.html"><img src="imatges/menu/contacto.png" alt="contacto" class="icon"></a></li>
-                            <!--<li><a href="#">About</a></li>-->
-                        </ul>
-                        <a href="#" id="pull"><img src="imatges/banner3.png" alt="RETROPISTON" class="banner2"></a>
-                    </nav>
+                        <li><a href="index.html"><img src="imatges/menu/home2h.png" alt="Home" class="icon" id="homeimg"  onmouseover="inn(1)" onmouseout="out(1)"></a></li>
+                        <li><a href="marques.html"><img src="imatges/menu/clasicash.png" alt="clasicas" class="icon" id="clasicasimg"  onmouseover="inn(2)" onmouseout="out(2)"></a></li>
+                        <li><a href="foro.html"><img src="imatges/menu/foroh.png" alt="foro" class="icon" id="foroimg"  onmouseover="inn(3)" onmouseout="out(3)"></a></li>
+                        <!--<li><a href="vespa125s.html">Vespa125s</a></li>-->
+                        <li><a href="contacte.html"><img src="imatges/menu/contactoh.png" alt="contacto" class="icon" id="contactoimg"  onmouseover="inn(4)" onmouseout="out(4)"></a></li>
+                        <!--<li><a href="#">About</a></li>-->
+                    </ul>
+                     <a href="#" id="pull"><img src="imatges/banner3_p.png" alt="RETROPISTON" class="banner2"></a>
+                </nav>
+            </div>
+
+
+            <a href="index.html">
+                <div id="banner">
+                     <img src="imatges/banner3_p.png" alt="RETROPISTON" class="banner1">
+
                 </div>
+            </a>
 
-                
-                <a href="index.html">
-                    <div id="banner">
-                        <img src="imatges/banner3.png" alt="RETROPISTON" class="banner1">
-
-                    </div>
-                </a>
-
-
-
-
-                <div id="cuerpo">
+            <div id="cuerpo">
                     <form method="post" action="url">
 
-                        <div class="form"> Nom <input type="text" name="nom" placeholder="escriu el teu nom"></div>
+                        <div class="form"> Nom <input title="Com et dius?" type="text" name="nom" placeholder="escriu el teu nom"></div>
 
-                        <div class="form">Llinatges:<input type="text" name="llinatge" placeholder="escriu el teu llinatge"></div>
+                        <div class="form">Llinatges:<input title="I els teus llintages?" type="text" name="llinatge" placeholder="escriu el teu llinatge"></div>
 
-                        <div class="form">Edat: <input type="date" name="edad"></div>
+                        <div class="form">Edat: <input title="Quina edat tens?" type="date" name="edad"></div>
 
 
                         <div class="form">Sexe: </div>
 
-                        <div class="form"><input type="radio" name="sexe">Home </div>
-                        <div class="form"><input type="radio" name="sexe">Dona </div>
+                        <div class="form"><input title="Ets home?" type="radio" name="sexe">Home </div>
+                        <div class="form"><input title="Ets dona?" type="radio" name="sexe">Dona </div>
 
 
-                        <div class="form">Quin model de Vespa tens?:</div>
+                        <div class="form">Model Retro:</div>
 
-                        <div class="form"><select name="model">
+                        <div class="form"><select title="Quin model de vespa tens?" name="model">
                                 <option>Vespa 125s</option>
                                 <option>Vespa cosa</option>
                                 <option>PK primavera 75</option>
@@ -92,6 +105,6 @@
 
                 </div>
             </div>
-        </div>
+       
     </body>
 </html>
