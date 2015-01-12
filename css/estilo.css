@@ -1,14 +1,10 @@
-
-.container {
-
-}
-
+*{margin: 0; padding: 0; }
 /* Basic Styles */
 nav {
     position: relative;
     height: 70px;
     width: 100%;
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0,0.4);
     z-index: 9999;
     position: fixed;
     
@@ -63,7 +59,6 @@ nav a#pull {
         position: relative;
         top: 0;
         background-color: rgba(0,0,0,0);
-        
 
 
 
@@ -81,7 +76,7 @@ nav a#pull {
         width: 100%;
         float: left;
         position: relative;
-        //border-bottom: 1px solid #262626;
+        /*border-bottom: 1px solid #262626;*/
 
     }
 
@@ -89,19 +84,16 @@ nav a#pull {
         text-align: center;
         width: 100%;
         //text-indent: 2%;
-        background-color: rgba(0,0,0,0.6);
+        background-color: rgba(0,0,0,0);
         padding: 9px 0;
 
     }
 
     nav a:hover {
-        background-color: rgba(0,0,0,0.6);
+        background-color: rgba(0,0,0,0);
     }  	
 
     nav a#pull {
-        margin: 0;
-        padding: 0;
-        top:0;
         display: block;
         background-color: rgba(0,0,0,0);
         width: 100%;
@@ -123,7 +115,7 @@ nav a#pull {
         display: inline-block;
         position: absolute;
         left: 10px;
-        top: 10px;
+        top: 18px;
         text-align: center;
 
 
