@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>RETROPISTÓN</title>
+        <meta http-equiv="content-Type" content="text/html; charset=utf-8">
+        <meta name="author" content="jlopez">
+        <meta name="description" content="Aqui trobaràs tot el relacionat amb la teva clàsica">
+        <meta name="keywords" content="classic, vespa, lambretta, pistòn, retro">
+        <meta name="robots" content="index, follow">
+
+        <!---->
+
+        <link rel="stylesheet" type="text/css" href="css/fonts.css">
+        <link rel="stylesheet" type="text/css" href="css/general.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+
+
+        <!--menu-->
+
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/estilo.css" />
+
+        <!--css joc-->
+        <link rel="stylesheet" href="css/jocs.css" type="text/css">
+
+
+        <!-- Responsive Nav -->
+
+        <script src="js/jquery.js"></script>
+        <script src="js/js.js"></script>
+
+        <!-- Css jquery ui-->
+
+        <link rel="stylesheet" type="text/css" href="js/jquery/jquery-ui.css">
+        <link rel="stylesheet" type="text/css" href="js/jquery/jquery-ui.theme.css">
+
+        <!-- Jquery UI -->
+
+        <script src="js/jquery/jquery-ui.js"></script>
+
+        <!--scripts propis -->
+
+        <script src="js/vespa.js"></script>
+        
+        <!--scripts palindrom-->
+        <script src="js/palindrom.js"></script>
+        
+
+    </head>
+
+    <!---->
+    <body>
+
+        <div id="contenidor">
+
+
+
+            <div id="menu">
+                <nav class="clearfix">
+                    <ul class="clearfix">
+
+                        <li><a href="index.html"><img src="imatges/menu/home2h.png" alt="Home" class="icon" id="homeimg"  onmouseover="inn(1)" onmouseout="out(1)"></a></li>
+                        <li><a href="marques.html"><img src="imatges/menu/clasicash.png" alt="clasicas" class="icon" id="clasicasimg"  onmouseover="inn(2)" onmouseout="out(2)"></a></li>
+                        <li><a href="foro.html"><img src="imatges/menu/foroh.png" alt="foro" class="icon" id="foroimg"  onmouseover="inn(3)" onmouseout="out(3)"></a></li>
+                        <!--<li><a href="vespa125s.html">Vespa125s</a></li>-->
+                        <li><a href="contacte.html"><img src="imatges/menu/contactoh.png" alt="contacto" class="icon" id="contactoimg"  onmouseover="inn(4)" onmouseout="out(4)"></a></li>
+                        <!--<li><a href="#">About</a></li>-->
+                    </ul>
+                    <a href="#" id="pull"><img src="imatges/banner3_p_a.png" alt="RETROPISTON" class="banner2"></a>
+                </nav>
+            </div>
+
+
+            <a href="index.html">
+                <div id="banner">
+                    <img src="imatges/banner3_p.png" alt="RETROPISTON" class="banner1">
+
+                </div>
+            </a>
+
+            <div id="cuerpo">
+                <div id="titol"><a href=trivial.html>Trivial</a></div>
+
+                <div id="titol2"><a href=bingo.html>Bingo</a></div>
+                
+                <p>Comprueba si son palindromos</p>
+
+                <input type="text" id="palabra"><button onclick="comprovar('palabra')">Comprova</button>
+                <input type="text" id="proba"><button onclick="comprovar('proba')">Comprova</button>
+
+
+
+            </div>
+        </div>
+
+
+    </body>
+
+</html>
